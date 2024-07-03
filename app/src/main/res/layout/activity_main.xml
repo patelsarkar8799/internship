@@ -26,25 +26,25 @@
         style="@style/text_20"
         android:textColor="@color/gray"
         android:fontFamily="@font/bree_serif"
-        android:text="Sing in to your Account" />
-    
+        android:text="@string/sing_in_to_your_account" />
+
     <EditText
-        android:drawableLeft="@drawable/email"
+        android:drawableStart="@drawable/email"
         android:drawablePadding="@dimen/_10sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:inputType="textEmailAddress"
-        android:hint="Email"/>
+        android:hint="@string/email"/>
 
     <EditText
-        android:drawableLeft="@drawable/password"
+        android:drawableStart="@drawable/password"
         android:drawablePadding="@dimen/_10sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
         android:inputType="textPassword"
         android:hint="@string/password"/>
 
@@ -78,7 +78,7 @@
             android:text="@string/you_are_not_a_member"
             android:textStyle="bold"
             android:textColor="@color/gray"
-            android:paddingEnd="15dp"/>
+            android:paddingEnd="@dimen/_15sdp"/>
 
         <TextView
             style="@style/text_20"

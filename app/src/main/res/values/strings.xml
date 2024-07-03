@@ -6,4 +6,6 @@
     <string name="forget_my_password">Forget my password?</string>
     <string name="you_are_not_a_member">You are not a member?</string>
     <string name="create_account">Create Account</string>
+    <string name="sing_in_to_your_account">Sing in to your Account</string>
+    <string name="email">Email</string>
 </resources>
