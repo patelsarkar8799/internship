@@ -6,14 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FDFDFC"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_135sdp"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textSize="@dimen/_40sdp"
+        android:textSize="@dimen/_35sdp"
         android:textColor="#589325"
         style="@style/text_20"
         android:fontFamily="@font/bree_serif"
@@ -29,6 +28,7 @@
         android:text="@string/sing_in_to_your_account" />
 
     <EditText
+        android:id="@+id/main_email"
         android:drawableStart="@drawable/email"
         android:drawablePadding="@dimen/_10sdp"
         android:layout_width="match_parent"
@@ -39,6 +39,7 @@
         android:hint="@string/email"/>
 
     <EditText
+        android:id="@+id/main_password"
         android:drawableStart="@drawable/password"
         android:drawablePadding="@dimen/_10sdp"
         android:layout_width="match_parent"
@@ -49,6 +50,7 @@
         android:hint="@string/password"/>
 
     <Button
+        android:id="@+id/main_singin"
         android:layout_width="match_parent"
         style="@style/text_20"
         android:background="@drawable/custom_button"
