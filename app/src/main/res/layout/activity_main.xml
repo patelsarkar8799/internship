@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFDFC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_40sdp"
+        android:textColor="#589325"
+        style="@style/text_20"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/hello" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        style="@style/text_20"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/bree_serif"
+        android:text="Sing in to your Account" />
+    
+    <EditText
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        style="@style/text_20"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:text="@string/sign_in"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/text_20"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="textEnd"
+        android:text="@string/forget_my_password"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        style="@style/text_20"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <TextView
+            style="@style/text_20"
+            android:text="@string/you_are_not_a_member"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:paddingEnd="15dp"/>
+
+        <TextView
+            style="@style/text_20"
+            android:text="@string/create_account"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>
